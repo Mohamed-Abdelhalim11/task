@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact LocaConnect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contact-container">
+    <div class="form-container">
+      <h1>Contact Us</h1>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="send-button">Send</button>
+      </form>
+    </div>
+    <div class="map-container">
+      <h2>Our Location</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.963057915407!3d-37.81410794207943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce720!2z5Lit5Zu9!5e0!3m2!1sja!2sjp!4v1615419922182!5m2!1sja!2sjp" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
